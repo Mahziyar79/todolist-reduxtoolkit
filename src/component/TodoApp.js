@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import NavBar from "../NavBar";
 import TodoForms from "./TodoForms";
 import TodoList from "./TodoList";
-import { addTodo , deleteTodo , completeTodoAction , updateTodoAction } from "../redux/addProducts/todoSlice";
+import { addTodo , deleteTodo , completeTodoAction , updateTodoAction } from "../redux/addTodos/todoSlice";
 import { useDispatch, useSelector } from "react-redux";
 
 const TodoApp = () => {
